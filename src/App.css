@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 30px;
+  border: 1px solid rgb(214, 213, 213);
+  border-radius: 5px;
+  box-shadow: -5px 5px 2px rgba(115, 115, 115, 0.2);
+  min-height: 70vh;
+  width: 320px;
+  padding: 10px;
+  
+}
+
+img{
+  height: 40vh;
+}
+
+h4{
+  font-size: 18px;
+  padding-top: 10px;
+  color: #333;
+  
+}
+
+h3{
+  color: #494949;
+}
+
+h5{
+  color: #666;
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 2px solid rgb(14, 14, 188);
+  color: rgb(14, 14, 188);
+}
+
+button:hover{ 
+  background-color: rgb(38, 38, 189);
+  color: #fff;
+
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container h1{
+  display: flex;
+  justify-content: center;
+   font-size: 38px;
+   background-color: #fbf5f5;
+   padding: 20px;
+}
+
+.details-img{
+ padding: 30px 50px;
+ min-width: 45%;
+ 
+} 
+
+.details-img img{
+  width: 100%;
+  min-height:  60vh ;
+}
+
+.card_details{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.details-des{
+  width: 700px;
+  justify-content: start;
+  padding-top: 20px;
+}
+
+.card_details h3{
+  font-size: 34px;
+  padding: 8px;
+  color: rgb(32, 32, 32);
+}
+
+.card_details p{
+  font-size: 24px;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+.card_details h4{
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card_details h2{
+   color: #3d3d3d;
+   font-size: 40px;
+   text-align: center;
+   text-decoration: underline;
+   margin-bottom: 20px;
+}
